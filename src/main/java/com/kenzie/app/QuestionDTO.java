@@ -1,9 +1,11 @@
 package com.kenzie.app;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
+@JsonIgnoreProperties
 public class QuestionDTO {
 
     @JsonProperty("clues")

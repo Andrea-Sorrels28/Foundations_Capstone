@@ -1,7 +1,9 @@
 package com.kenzie.app;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@JsonIgnoreProperties
 public class Game {
     @JsonProperty("canon")
     private boolean canon;
