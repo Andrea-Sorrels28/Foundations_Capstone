@@ -22,7 +22,7 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args) {
         try {
             CustomHttpClient questionHttpClient = new CustomHttpClient();
             ObjectMapper mapper = new ObjectMapper();
